@@ -33,6 +33,7 @@ const Header = () => {
             layout="fill"
             objectFit="contain"
           />
+          <p className="absolute bottom-2 left-1 text-red-500 text-[10px] font-bold">training purpose</p>
         </div>
         <div
           onClick={() => router.push("/")}
@@ -43,6 +44,7 @@ const Header = () => {
             layout="fill"
             objectFit="contain"
           />
+          <p className="absolute bottom-4 left-12 text-red-500 text-[10px] font-bold">training purpose</p>
         </div>
 
         {/* Middle - Search Input Field */}
